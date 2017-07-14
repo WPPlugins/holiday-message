@@ -1,0 +1,120 @@
+/* Form Fields */
+	.form-table th { width: 120px; }
+	.tabpane label { font-style: italic; color: #666; display: block; }
+	.tabpane input[type="text"] { max-width: 95%; padding: 6px 10px; }
+	.tabpane textarea { max-width: 400px; height: 100px; padding: 6px 10px; }
+	.tabpane label.checkbox_description,
+	.tabpane label.radio_description {
+		font-style: normal; display: inline-block; padding: 0 0 0 5px; margin-top: -2px;
+	}
+	
+	/* Upload */
+	.tabpane .upload_buttons { padding-top: 5px; padding-bottom: 5px; }
+		.tabpane .upload_buttons a { font-size: 11px; margin: 0 0 0 5px; }
+	.show-image img { border: 1px solid #CCC; max-width: 90%; padding: 3px; margin: 10px 0 0 0; background: #FFF; }
+
+/* Plugin Options */
+.sn_plugin_options_wrap p.submit { padding: 20px 0 0 10px; display: block; }
+.sn_plugin_options_wrap .form-table { margin: 0 0 20px 0; }
+
+	/* Options Tabs */	
+	.nav-tab-wrapper-post-options { margin-top: 10px!important; margin-bottom: 15px!important; padding: 0!important; }
+	.nav-tab-wrapper-post-options .nav-tab { border-bottom-color: #f9f9f9!important; }
+	
+	/* Headings */
+	.tabpane_heading { padding: 14px 0 14px 10px; }
+		.tabpane_heading h2 { margin: 0; padding: 0; font-size: 20px; line-height: 20px; }
+		#poststuff .post_options h2 { margin: 0px; }
+		.tabpane-post-options .tabpane_heading h2 { margin: 0px!important; padding: 0px!important; }
+		.tabpane_heading p { margin: 0; padding: 4px 0 0 0; color: #999; }
+		
+		/* Post Options Headings */
+		.tabpane-post-options .tabpane_heading { padding: 0 0 14px 10px; }
+		.tabpane-post-options th { font-size: 12px; }
+	
+	/* Options sub headings */
+	.options-subheading-container { position: relative; }
+		.options-sub-heading { overflow: hidden; clear: both; padding: 0 0 20px 0; }
+			.options-sub-heading h4 { 
+				margin: 0; clear: both; font-size: 14px; font-weight: normal; padding: 0 0 4px 0; margin: 0 0 0 10px; font-weight: bold; display: inline;
+			}
+			.options-sub-heading p { margin: 0; padding: 0 0 0 10px; color: #999; }
+
+/* Misc */
+.widget-content input,
+.widget-content textarea { margin-top: 2px; }
+.color-picker-selector { background: #EEE; border: 1px solid #CCC; z-index: 3000; }
+
+/* Specific to Holiday Message plugin */
+.sn_plugin_options_wrap .sn_holiday_message-characters {
+	margin: 0 0 20px 0;
+	overflow: hidden;
+	padding: 0 0 0 25px;
+	position: relative;
+}
+	.sn_plugin_options_wrap .credit-link {
+		position: absolute;
+		bottom: 10px;
+		left: 50px;
+		font-size: 11px;
+		font-style: italic;
+		display: inline-block;
+	}
+	.sn_plugin_options_wrap .sn_holiday_message-characters ul {
+		display: block;
+		margin: 20px 0 0 0;
+	}
+	.sn_plugin_options_wrap .sn_holiday_message-characters ul li {
+		height: 200px;
+		float: left;
+		display: block;
+		margin: 0 25px 50px 25px;
+		opacity: 0.4;
+	}
+	.sn_plugin_options_wrap .sn_holiday_message-characters ul li.active { opacity: 1; }
+		.sn_plugin_options_wrap .sn_holiday_message-characters ul li img {
+			height: 200px;
+			width: auto;
+			float: left;
+			display: block;
+		}
+
+.sn_plugin_options_wrap h2.subheading {
+	margin: 0 30px 10px 30px;
+}
+.sn_plugin_options_wrap .form-table {
+	margin: 0px;
+}
+.sn_plugin_options_wrap .form-table th {
+	padding-left: 30px;
+}
+.sn_plugin_options_wrap .sn_plugin_options_wp_editor { 
+	max-width: 600px;
+}
+.sn_plugin_options_wrap .submit {
+	margin: 20px 30px 10px 20px;
+}
+
+.preview-message-link {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+}
+
+.sn_plugin_options_wrap .date-fields {
+	
+}
+	.sn_plugin_options_wrap .date-fields .date-field {
+		float: left;
+		display: block;
+		margin: 0 10px 0 0;
+	}
+	.sn_plugin_options_wrap .date-fields input[type="text"] {
+		width: 56px;
+		padding: 4px 10px;
+	}
+	.sn_plugin_options_wrap .date-fields .date-field-checkbox {
+		width: 200px;
+		padding: 3px 0 0 10px;
+	}
+		
